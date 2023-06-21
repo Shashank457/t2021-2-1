@@ -1,3 +1,10 @@
+# Problem-1: Create a small calculator which performs operations such as Addition, Subtraction, Multiplication and Division using class.
+#     Calculator inputs :> ‘a’, ‘b’ and ‘type of operation’
+#     Datatype :> ‘a’ = double, ‘b’ = double, ‘type of operation’ = string
+
+
+
+# Calculator class to perform the different type Of Operations
 class Calculator:
     def __init__(self, a, b):
         self.a = a
